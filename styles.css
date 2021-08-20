@@ -1,0 +1,55 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: none;
+}
+
+body{
+    background-color: black;
+    padding: 1em
+}
+
+#convert{
+    padding: 1em;
+    width: 100%;
+    font-size: xx-large;
+    /* border: none; */
+    background: rgba(255, 255, 255, .3);
+    margin-top: .5em;
+}
+
+#toggle{
+    position:relative;
+    left: 50%;
+    transform: translate(-50%);
+    border: none;
+    margin-top: 1em;
+    background: rgba(255, 255, 255, .3);
+}
+
+#input{
+    background: rgba(255, 255, 255, .3);
+    /* border: none; */
+    position: relative;
+    width: 99%;
+}
+
+#number{
+    background: rgba(255, 255, 255, .3);
+    /* border: none; */
+    margin-top: .5em;
+    padding: .25em;
+    width:25%;
+    text-align: center;
+    position:relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#copy{
+    background: rgba(255, 255, 255, .3);
+    position:relative;
+    left: 50%;
+    transform: translate(-50%);
+    display: none;
+}
